@@ -1,0 +1,436 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Gothic A1";
+    background-color: #eeeeee;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(94, 109, 245);
+    transition: all .3 ease-in-out;
+}
+
+a:hover{
+    color: rgb(20, 161, 255);
+}
+
+/* -------------HEADER--------------- */
+
+.navbar{
+  background-color: #3B5998;
+  color: #FFF;
+}
+a .fa-facebook-square{
+    font-size: 35px;
+    margin-left: 15px;
+}
+
+
+/* colors the icons to white */
+.fa{
+    color: white;
+}
+
+/* Icon size is changed to 16px */
+.fa{
+    font-size: 16px;
+}
+
+.logo{
+    width: 18%;
+}
+
+.menu{
+    width: 20%;
+    border-right: 1px solid rgba(255, 255, 255, .3);
+}
+
+.menu a{
+    margin-right: 30px;
+}
+
+.icon-links{
+    width: 24%;
+    padding-left: 45px;
+    text-align: center;
+    padding-right: 45px;
+}
+
+.privacy{
+    padding-left: 35px;
+}
+
+.quick-options{
+    border-right: 1px solid rgba(255, 255, 255, .3);
+    padding-right: 45px;
+}
+
+/* first and second icon links are given space */
+.icon-links ul li:nth-child(1),
+.icon-links ul li:nth-child(2){
+    margin-right: 9px;
+}
+
+.search-area{
+    width: 30%;
+    text-align: right;
+}
+
+header a{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+}
+
+.logo,
+.menu,
+.menu li,
+.icon-links,
+.icon-links li,
+.privacy,
+.quick-options,
+.search-area,
+.search-area li{
+    display: inline-block;
+}
+
+/* ------------------Top Area---------------- */
+
+#top-area{
+    background-image: url("https://images.unsplash.com/photo-1473186578172-c141e6798cf4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f522231f2b7d4e6d0684b700abbec7e3&auto=format&fit=crop&w=1266&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 15px 90px 15px;
+    background-position: 0;
+    color: white;
+}
+
+.top-positioning{
+    position: relative;
+    top:  -45px;
+    left: 25px;
+}
+
+.user-img img{
+    border-radius: 50%;
+    width: 175px;
+}
+
+.user-img{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.user-details{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 65px;
+}
+
+.user-details h3{
+    font-size: 24px;
+    margin: auto auto 25px 4px;
+    letter-spacing: 1.4px;
+}
+
+.user-details a{
+    background: rgba(63, 106, 248, 0.418);
+    padding: 10px;
+    color: white;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 30px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 40px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 30px;
+    -moz-border-radius-bottomright: 30px;
+    -moz-border-radius-bottomleft: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-size: 12px;
+    -webkit-box-shadow: -9px -7px 32px -5px rgba(171,171,171,1);
+    -moz-box-shadow: -9px -7px 32px -5px rgba(171,171,171,1);
+    box-shadow: -9px -7px 32px -5px rgba(171,171,171,1);
+}
+
+.user-details a:nth-child(1){
+    margin-right: 5%;
+}
+
+.user-details a:hover{
+    background-color: rgb(63, 106, 248);
+    transition: background .5s ease-in-out;
+}
+
+/* ------------------Side Content Area------------------- */
+
+#content-area{
+    background: #FAFAFA;
+    color: #a7a7a8;
+}
+
+#content-area .widget-box{
+    background: white;
+    border-radius: 4px;
+    -webkit-box-shadow: 8px 8px 5px -5px rgba(200,203,235,1);
+    -moz-box-shadow: 8px 8px 5px -5px rgba(200,203,235,1);
+    box-shadow: 8px 8px 5px -5px rgba(200,203,235,1);
+    margin-bottom: 12px;
+    overflow: auto;
+    padding: 6px;
+}
+
+.submenu{
+    -webkit-box-shadow: -1px 9px 11px -4px rgba(200,203,235,1) !important;
+    -moz-box-shadow: -1px 9px 11px -4px rgba(200,203,235,1);
+    box-shadow: -1px 9px 11px -4px rgba(200,203,235,1);
+    position: relative;
+    top: 200px;
+}
+
+#content-area .side-column{
+    width: 26%;
+    margin: 2.5%;
+    float: left;
+}
+
+.photos img{
+    width: 33%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    padding: 2px 2px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+.side-column-icon{
+    background-color: #d8d8d8;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 17px;
+    margin: 15px 0 10px 9px;
+}
+
+.widget-title, .widget-img{
+    display: inline-block;
+}
+
+.widget-title{
+    margin-left: 15px;
+}
+/* ------------------Main Content Area - Sub-menu------------------- */
+
+.menu-positioning{
+    position: relative;
+    top: -85px;
+}
+
+#content-area .main-area{
+    width: 54%;
+    margin:  2.5%;
+    float: left;
+}
+
+#content-area .main-area .widget-box.submenu{
+    padding: 0;
+    margin: 0;
+    margin: 0 0 10px 0;
+}
+
+.menu-icons{
+    color: #dedee0;
+    font-size: 30px;
+    margin-bottom: 9px;
+}
+
+.submenu ul{
+    padding: 0;
+}
+
+.submenu ul li{
+    width: 20%;
+    float: left;
+    text-align: center;
+    border-bottom: 3px solid white;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+    padding: 8px;
+    color: #dedee0;
+}
+
+.submenu span{
+    color: #a7a7a8;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.submenu ul li:hover {
+    border-bottom: 3px solid rgb(63, 106, 248);
+    color: rgb(63, 106, 248);
+}
+
+.submenu ul li:hover span {
+    color: rgb(63, 106, 248);
+}
+
+.submenu ul li:hover .fa {
+    color: rgb(63, 106, 248);
+}
+
+/* ------------------Main Content Area - Posts------------------- */
+.posts{
+    padding: 0;
+}
+
+.avatar{
+    display: inline-block;
+}
+.avatar-sm{
+    border-radius: 50%;
+    width: 45px;
+    margin: 6px 0 0 9px;
+}
+
+#post-info{
+    display: inline-block;
+}
+
+.post-info-user, .post-info-date{
+    padding: 0 0 5px 8px;
+
+}
+
+.post-img{
+    width: 100%;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+}
+
+.post-icons{
+    color: rgb(191, 191, 194);
+    font-size: 29px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.post-icons:hover{
+    color: rgb(63, 106, 248);
+    transition: .3s ease-in-out;
+}
+
+
+.share-icon, .thumb-icon{
+    float: left;
+    padding-right: 6px;
+}
+
+.comment-icon{
+    float: right;
+}
+
+.comment-area{
+    background-color: #dadadabb;
+    margin-top: 50px;
+    border-radius: 13px;
+}
+
+.comment a{
+    font-weight: 700;
+}
+
+.comment{
+    border-radius: 10px;
+    margin: 28px 0 0 7px;
+    padding: 19px;
+    background: white;
+}
+
+.comment-container{
+    padding-bottom: 8px;
+}
+
+.user-icon, .comment-container{
+    display: inline-block;
+}
+
+.comment-container, .user-icon, .comment{
+    vertical-align: middle;
+}
+
+.like, .reply{
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 6px 0 5px;
+    color: rgb(94, 109, 245);
+    margin-top: 7px;
+}
+
+.like{
+    margin-left: 14px;
+}
+
+.comment-post{
+    display: inline-block;
+}
+
+.comment-input{
+    width: 425px;
+    padding: 13px;
+    border-radius: 19px;
+    margin-left: 6px;
+}
+
+.comment-post-icon{
+    color: rgb(191, 191, 194);
+    position: relative;
+    font-size: 23px;
+    top: 3px;
+    cursor: pointer;
+}
+
+.comment-post-icon:hover{
+    color: rgb(63, 106, 248)
+}
+
+.fa-paperclip{
+    right: 30px;
+}
+
+.fa-smile-o{
+    right: 80px;
+}
+
+/* ------------------Main Content Area - Side Icons------------------- */
+
+.side-icons{
+    color: black;
+    width: 65%;
+    font-size: 27px;
+}
+
+.side-user-img{
+    border-radius: 50%;
+    width: 65%;
+    margin-bottom: 24px;
+}
+
+.online-users{
+    width: 75px;
+    position: absolute;
+    right: 15px;
+    top: 500px;
+
+}
