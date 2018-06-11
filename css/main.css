@@ -2,41 +2,68 @@
     box-sizing: border-box;
 }
 
-html{
-    font-family: "Gothic A1";
-    background-color: #eeeeee;
+body{
+  font-family: "Gothic A1";
+  background-color: #eeeeee;
 }
 
 a{
-    text-decoration: none;
-    color: rgb(94, 109, 245);
-    transition: all .3 ease-in-out;
+  text-decoration: none;
+  color: rgb(94, 109, 245);
+  transition: all .3 ease-in-out;
 }
 
 a:hover{
-    color: rgb(20, 161, 255);
+  color: rgb(20, 161, 255);
+}
+
+.wrapper{
+  max-width: 1700px;
+  margin: 0 auto;
 }
 
 /* -------------HEADER--------------- */
 
-.navbar{
+.navbar-expand-lg{
   background-color: #3B5998;
-  color: #FFF;
 }
 a .fa-facebook-square{
-    font-size: 35px;
-    margin-left: 15px;
+  font-size: 40px;
+  margin-left: 15px;
+
 }
 
+.nav-item-text-1{
+  margin-left: 5rem;
+}
+
+.nav-item-icon{
+  margin-left: 1.3rem;
+  padding-left: .8rem;
+}
+
+.nav-item-icon-left-border{
+  margin-left: 8.3rem;
+  padding-left: 2rem;
+  border-left: 1px solid #eeeeee;
+}
+
+.nav-item-icon-right-border{
+  padding-right: 2rem;
+  border-right: 1px solid #eeeeee;
+}
 
 /* colors the icons to white */
 .fa{
     color: white;
 }
 
-/* Icon size is changed to 16px */
 .fa{
     font-size: 16px;
+}
+
+.header-icons{
+  font-size: 20px;
 }
 
 .logo{
@@ -199,7 +226,7 @@ header a{
 
 #content-area .side-column{
     width: 26%;
-    margin: 2.5%;
+    margin: 2.5% 2.5% 2.5% 0;
     float: left;
 }
 
@@ -226,7 +253,7 @@ header a{
 
 .menu-positioning{
     position: relative;
-    top: -85px;
+    top: -94px;
 }
 
 #content-area .main-area{
@@ -408,10 +435,23 @@ header a{
 
 /* ------------------Main Content Area - Side Icons------------------- */
 
+.right-side-menu-icons-container{
+  width: 97px;
+  position: relative;
+  right: -1025px;
+  bottom: 1430px;
+}
+
 .side-icons{
-    color: black;
+    color: #A4A4A4;
+    font-size: 35px;
+    padding: 13px;
+    border-radius: 50%;
+    background-color: #FAFAFA;
+    display: block;
     width: 65%;
-    font-size: 27px;
+    margin-bottom: 12px;
+    text-shadow: 1px 3px 2px rgba(150, 150, 150, 0.4);
 }
 
 .side-user-img{
@@ -422,8 +462,8 @@ header a{
 
 .online-users{
     width: 75px;
-    position: absolute;
-    right: 15px;
-    top: 500px;
+    position: relative;
+    right: -1033px;
+    bottom: 1400px;
 
 }
