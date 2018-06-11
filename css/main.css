@@ -203,15 +203,8 @@ header a{
     float: left;
 }
 
-.photos img{
-    width: 33%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    float: left;
-    padding: 2px 2px;
-    border-radius: 5px;
-    flex-wrap: wrap;
+.col-sm{
+  padding: 1px 1.3px;
 }
 
 .side-column-icon{
