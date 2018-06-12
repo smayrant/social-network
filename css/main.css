@@ -22,8 +22,10 @@ a:hover{
 }
 
 .wrapper{
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 
 /* -------------HEADER--------------- */
@@ -128,6 +130,13 @@ header a{
 }
 
 /* ------------------Top Area---------------- */
+
+.wrapper-top-area{
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-left: 18px;
+  padding-right: 18px;
+}
 
 #top-area{
     background-image: url("https://images.unsplash.com/photo-1473186578172-c141e6798cf4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f522231f2b7d4e6d0684b700abbec7e3&auto=format&fit=crop&w=1266&q=80");
@@ -387,7 +396,7 @@ header a{
 }
 
 .comment-area{
-    background-color: #dadadabb;
+    background-color: #FFF;
     margin-top: 50px;
     border-radius: 13px;
 }
@@ -397,10 +406,10 @@ header a{
 }
 
 .comment{
-    border-radius: 10px;
+    border-radius: 30px;
     margin: 28px 0 0 7px;
     padding: 19px;
-    background: white;
+    background: #dadadabb;
 }
 
 .comment-container{
@@ -462,14 +471,14 @@ header a{
 .right-side-icons{
   float: right;
   width: 5%;
+  position: relative;
+  top: -250px;
 }
 
 
 .right-side-menu-icons-container{
   width: 97px;
-  /* position: relative;
-  right: -1025px;
-  bottom: 1430px; */
+  margin-bottom: 35px;
 }
 
 .side-icons{
@@ -486,13 +495,10 @@ header a{
 
 .side-user-img{
     border-radius: 50%;
-    width: 65%;
+    width: 85%;
     margin-bottom: 24px;
 }
 
 .online-users{
-    width: 75px;
-    /* position: relative;
-    right: -1033px;
-    bottom: 1400px; */
+  margin-left: 8px;
 }
